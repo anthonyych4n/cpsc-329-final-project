@@ -8,7 +8,6 @@
 hr{
     display: block;
     margin-top: 80px;
-    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
@@ -43,7 +42,6 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-    box-shadow: ;
 }
 
 .head {
@@ -196,10 +194,25 @@ body {
     transform: scaleX(1);
 }
 
+/*Main styling */
+
 main{
     min-height: 120vh;
+    
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.logo1 {
+	width:500px;
+	height:500px;
+	background-size: cover;
+  mix-blend-mode: multiply;
+	background-image: url(https://img.freepik.com/premium-vector/angry-green-virus-face-cartoon-image-germs-illustration-white-background_47570-113.jpg);
+}
 
 
 

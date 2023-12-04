@@ -5,13 +5,36 @@
     font-family: 'Poppins', sans-serif;
 }
 
+hr{
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+hr.gradient {
+    height: 1px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(
+      90deg,
+      rgba(13, 8, 96, 1) 0%,
+      rgba(9, 9, 121, 1) 21%,
+      rgba(6, 84, 170, 1) 51%,
+      rgba(0, 255, 113, 1) 100%
+    );
+}
+
 body {
     min-height: 100vh;
     background: whitesmoke;
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -20,6 +43,7 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    box-shadow: ;
 }
 
 .head {

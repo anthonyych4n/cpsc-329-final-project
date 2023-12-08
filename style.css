@@ -214,7 +214,15 @@ main{
 	background-image: url(https://img.freepik.com/premium-vector/angry-green-virus-face-cartoon-image-germs-illustration-white-background_47570-113.jpg);
 }
 
+.header1 {
+  background-color: #DBAE58;
+  padding: 10px 0;
+ 
+}
 
+.header1 h1 {
+  text-align: center;
+}
 
 
 /* Footer */

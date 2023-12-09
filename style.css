@@ -214,12 +214,36 @@ main{
 	background-image: url(https://img.freepik.com/premium-vector/angry-green-virus-face-cartoon-image-germs-illustration-white-background_47570-113.jpg);
 }
 
-.logo2 {
-	width:250px;
+.viruspic {
+	width:500px;
+	height:250px;
+	background-size: cover;
+  mix-blend-mode: multiply;
+	background-image: url(https://images.ctfassets.net/xwxknivhjv1b/2FPp826aM4wggdhHFIARFV/f367943e9f421440e8f32292c3b1300c/Computer_Virus_Hero.svg);
+}
+
+.trojanpic {
+	width:500px;
+	height:250px;
+	background-size: cover;
+  mix-blend-mode: multiply;
+	background-image: url(https://nordvpn.com/wp-content/uploads/blog-social-trojan-1200x628-1.jpg);
+}
+
+.wormpic {
+	width:400px;
 	height:250px;
 	background-size: cover;
   mix-blend-mode: multiply;
 	background-image: url(https://images.ctfassets.net/yewqr8zk7e5s/6oUpJsCKt3cDGxK6xs5i90/a8225dfea41497102e5d9fa5f11ab53b/Computer_worms.jpg?w=1000&h=667&q=50&fm=webp);
+}
+
+.ransompic {
+	width:400px;
+	height:250px;
+	background-size: cover;
+  mix-blend-mode: multiply;
+	background-image: url(https://www.globalsign.com/application/files/3416/1644/1850/iStock-1022030450.jpg);
 }
 
 .header1 {

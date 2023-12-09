@@ -214,6 +214,14 @@ main{
 	background-image: url(https://img.freepik.com/premium-vector/angry-green-virus-face-cartoon-image-germs-illustration-white-background_47570-113.jpg);
 }
 
+.logo2 {
+	width:250px;
+	height:250px;
+	background-size: cover;
+  mix-blend-mode: multiply;
+	background-image: url(https://images.ctfassets.net/yewqr8zk7e5s/6oUpJsCKt3cDGxK6xs5i90/a8225dfea41497102e5d9fa5f11ab53b/Computer_worms.jpg?w=1000&h=667&q=50&fm=webp);
+}
+
 .header1 {
   background-color: #DBAE58;
   padding: 10px 0;

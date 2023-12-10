@@ -222,13 +222,42 @@ body {
 /*Main styling */
 
 main{
-    min-height: 120vh;
+    min-height: 100vh;
+}
+.main{
+  padding-top: 50px;
+  display: flex; 
+  justify-content: space-evenly;
+}
+.main1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+.main2{
+  padding-top: 50px;
+  display: flex; 
+  justify-content: space-evenly;
 }
 
-.main {
-  display: flex;
+.mainbutton{
+  padding-top: 50px;
+  min-height:100vh;
+}
+.main3{
+  display: flex; 
   justify-content: center;
-  padding: 100px;
+}
+
+.button{
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.hide{
+  display: none;
 }
 
 .about{

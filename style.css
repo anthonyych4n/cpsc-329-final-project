@@ -160,6 +160,22 @@ body {
     }
   }
 
+.back{
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+}
+
+.header1{
+
+}
 
 
 /* Navigation bar */
@@ -198,13 +214,36 @@ body {
 
 main{
     min-height: 120vh;
-    
 }
 
 .main {
   display: flex;
   justify-content: center;
   padding: 100px;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.about-header{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+}
+
+.about-div{
+  padding: 50px;
+  background-color: lightgray;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .logo1 {
 	width:500px;
@@ -220,6 +259,7 @@ main{
 	background-size: cover;
   mix-blend-mode: multiply;
 	background-image: url(https://images.ctfassets.net/xwxknivhjv1b/2FPp826aM4wggdhHFIARFV/f367943e9f421440e8f32292c3b1300c/Computer_Virus_Hero.svg);
+
 }
 
 .trojanpic {
@@ -258,13 +298,17 @@ main{
 
 
 /* Footer */
+
 footer {
-    width: 100%;
-    position: absolute;
-    bottom: -20;
-    background: grey;
-    color: #fff;
-    padding: 100px 0 30px;
-    font-size: 13px;
-    line-height: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: -20;
+  background: black;
+  color: #fff;
+  padding: 45px;
+  font-size: 13px;
+  line-height: 20px;
 }

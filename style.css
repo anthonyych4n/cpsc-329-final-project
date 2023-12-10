@@ -224,6 +224,10 @@ body {
 main{
     min-height: 100vh;
 }
+ul{
+  min-width: 100%;
+
+}
 .main{
   padding-top: 50px;
   display: flex; 
@@ -280,6 +284,7 @@ main{
   border-radius: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }

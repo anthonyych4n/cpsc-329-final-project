@@ -253,6 +253,11 @@ ul{
   display: flex; 
   justify-content: center;
 }
+.main4{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
 
 .button{
   height: 100px;
@@ -260,8 +265,18 @@ ul{
   border-radius: 10px;
 }
 
+.button:hover{
+  background-color: red;
+}
+
 .hide{
+  padding: 30px;
   display: none;
+  background-color: #D3D3D3;
+  height: 100px;
+  width: auto;
+  border-radius: 20px;
+
 }
 
 .about{
@@ -298,6 +313,13 @@ ul{
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
+.resource{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
 .logo1 {
 	width:500px;
 	height:500px;
